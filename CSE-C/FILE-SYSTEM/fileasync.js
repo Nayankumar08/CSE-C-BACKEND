@@ -8,6 +8,7 @@ const read = () => {
     console.log(error.msg);
   }
 };
+
 read();
 console.log("1");
 console.log("2");
