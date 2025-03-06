@@ -1,12 +1,5 @@
 import express from "express";
 const app = express();
-const users = [
-  {
-    id: "1",
-    name: "nayan",
-    age: "24",
-  },
-];
 const port = 3000;
 app.get("/", (req, res) => {
   res.send(users);
