@@ -9,5 +9,5 @@ app.get("/api", async (req, res) => {
   res.send(apidata.data.products);
 });
 app.listen(port, () => {
-  console.log(`server runing at https://localhost:${port}`);
+  console.log(`server  runing at https://localhost:${port}`);
 });
